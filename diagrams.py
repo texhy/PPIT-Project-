@@ -4,7 +4,7 @@ import mimetypes
 import streamlit as st 
 
 
-groq_key = st.secrets["GROK_API_KEY"]
+groq_key = st.secrets["GROQ_API_KEY"]
 client = Groq(api_key=groq_key)
 
 
