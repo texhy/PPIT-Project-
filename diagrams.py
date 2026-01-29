@@ -1,12 +1,10 @@
 from groq import Groq
 import base64
 import mimetypes
+import streamlit as st 
 
-import os 
-from dotenv import load_dotenv 
 
-load_dotenv() 
-groq_key = os.getenv("GROK_API_KEY")
+groq_key = st.secrets["GROK_API_KEY"]
 client = Groq(api_key=groq_key)
 
 
