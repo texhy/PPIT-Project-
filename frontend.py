@@ -58,7 +58,7 @@ if 'converted_file' not in st.session_state:
 if 'processing' not in st.session_state:
     st.session_state.processing = False
 
-st.markdown('<div class="main-header">📝 Handwritten Notes to DOCX Converter</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header">Handwritten Notes to DOCX Converter</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-header">Convert your handwritten notes images into structured Word documents</div>', unsafe_allow_html=True)
 
 st.markdown("""
